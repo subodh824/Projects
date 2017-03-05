@@ -1,0 +1,5 @@
+message notification {
+  required int32 receiverId = 1;
+  required string text = 2;
+  required uint32 timestamp = 3;
+}
